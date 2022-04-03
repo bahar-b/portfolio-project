@@ -14,16 +14,16 @@ body {
   text-align: center;
   color:black;
 }
-.content p {
+.content .hello {
   font-size: 36px;
   color: var(--third-color);
   font-weight:600;
 }
-h1 {
+.content h1 {
   font-size: 96px;
   font-family: var(--heading-font);
 }
-h2 {
+.content h2 {
   font-size: 24px;
   line-height: 2;
   font-weight:600;
