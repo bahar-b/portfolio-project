@@ -2,11 +2,11 @@
   --first-color: #f9f7fe;
   --second-color: #6c63ff;
   --third-color: #272142;
-  --defualt-font: "Poppins", sans-serif;
+  --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
 }
 body {
-  font-family: var(--defualt-font);
+  font-family: var(--default-font);
   background: var(--first-color);
 }
 h1,
@@ -41,6 +41,22 @@ h2 {
   line-height: 2;
   font-weight: 600;
   font-family: var(--heading-font);
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
 }
 .button {
   background: var(--second-color);
@@ -79,6 +95,16 @@ p {
   }
   .element {
     text-align: center;
-   padding:35px 20px;
+    padding: 35px 20px;
+  }
+  .about-section {
+    padding: 10px 20px;
+  }
+  .about-section h1 {
+    font-size: 54px;
+    line-height: 56px;
+  }
+  .about-section-content {
+    text-align: center;
   }
 }
