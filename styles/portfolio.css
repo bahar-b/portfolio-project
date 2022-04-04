@@ -7,7 +7,6 @@
 }
 body {
   font-family: var(--default-font);
-  background: var(--first-color);
 }
 h1,
 h2,
@@ -19,11 +18,34 @@ h6 {
   font-family: var(--heading-font);
   font-weight: bold;
 }
+nav {
+  padding: 20px;
+}
+nav .logo {
+  max-height: 40px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  line-height: 42px;
+  display: inline;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #212529;
+}
+nav li.active a {
+  color: var(--second-color);
+}
 h2 {
   font-size: 64px;
 }
 .content {
-  margin: 160px 20px;
+  background: var(--first-color);
+  padding: 160px 20px;
   text-align: center;
   color: black;
 }
@@ -66,8 +88,8 @@ h2 {
   line-height: 1.5;
   font-family: var(--default-font);
 }
-.about-section-content p{
-  font-size:14px;
+.about-section-content p {
+  font-size: 14px;
 }
 .button {
   background: var(--second-color);
@@ -102,7 +124,7 @@ p {
     font-size: 43px;
   }
   .content {
-    margin: 80px 20px;
+    padding: 80px 20px;
   }
   .element {
     text-align: center;
