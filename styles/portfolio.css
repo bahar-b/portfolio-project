@@ -45,7 +45,7 @@ h2 {
 }
 .content {
   background: var(--first-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
   color: black;
 }
@@ -65,7 +65,7 @@ h2 {
   font-family: var(--heading-font);
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .about-section h1 {
   font-size: 64px;
@@ -157,16 +157,10 @@ footer .social-link a:hover {
   h2 {
     font-size: 43px;
   }
-  .content {
-    padding: 80px 20px;
-  }
   .element {
     text-align: center;
     padding: 35px 20px;
   }
-  /* .about-section {
-    padding: 10px 20px; 
-  }*/
   .about-section h1 {
     font-size: 54px;
     line-height: 56px;
